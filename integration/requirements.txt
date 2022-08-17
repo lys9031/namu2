@@ -1,3 +1,4 @@
+libgl1-mesa-glx
 streamlit==0.75.0
 numpy==1.21.6
 pandas==1.3.5
