@@ -28,9 +28,9 @@ from integrationSystem import sorting
 @st.cache(suppress_st_warning=True)
 def imgload(filepath, dataselect):
     src = cv2.imread(filepath)
-    print("\n")
-    print(dataselect)
-    print("original image shape = {0}".format(src.shape))
+#     print("\n")
+#     print(dataselect)
+#     print("original image shape = {0}".format(src.shape))
 
     session_state.detection = False
     session_state.crop = False
