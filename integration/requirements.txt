@@ -23,7 +23,7 @@ Cython==0.29.32
 debugpy==1.6.2
 decorator==5.1.1
 defusedxml==0.7.1
-detectron2==0.6
+detectron2==0.6+cpu
 entrypoints==0.4
 fairscale==0.4.6
 fastjsonschema==2.16.1
