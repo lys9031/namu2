@@ -249,7 +249,7 @@ def result(input, dist_score, size_score, histogram_score, triplet_score):
 
 def main():
 
-    FirstTimeSetting = True
+    FirstTimeSetting = False
     path = '../data/segmentation_data/5/5-1-2/23154.jpg'
     if FirstTimeSetting:
         settingFlag = 'init'
