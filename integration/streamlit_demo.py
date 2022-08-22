@@ -41,7 +41,7 @@ def imgload(filepath, dataselect):
 
 session_state = SessionState.get(submit=False, crop=False, detection=False, color=False)
 input_dirpath = st.sidebar.text_input("Enter the directory path", "sample")
-if os.path.exists(input_dirpath) == True\:
+if os.path.exists(input_dirpath) == True:
     session_state.submit = True
     st.sidebar.warning('Please check directory path')
 
