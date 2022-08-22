@@ -11,7 +11,7 @@ scipy==1.7.3
 click==8.0.0
 Cython==0.29.32
 # Editable install with no version control (detectron2==0.6)
-#-e .
+-e .
 fvcore==0.1.5.post20220512
 matplotlib==3.5.2
 psutil==5.9.1
