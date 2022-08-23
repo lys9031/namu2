@@ -25,7 +25,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 # Editable install with no version control (detectron2==0.6)
 #-e /home/lys/detectron2-main
-detectron2==0.6+cpu
+detectron2==0.6
 entrypoints==0.4
 fairscale==0.4.6
 fastjsonschema==2.16.1
